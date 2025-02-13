@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
       <div>
         <h1>Navbar</h1>
-        <a href="/" style={linkStyle}>Home Page</a>
+       <Link href="/" style={linkStyle}>Home Page</Link>
         
       </div>
     );

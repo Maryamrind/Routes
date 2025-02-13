@@ -6,11 +6,11 @@ export default function Home() {
     <div>
       <u><h1>Home Page</h1></u>  
 
-      <u><h2>Linking by Anchor Tag</h2></u>
+      {/* <u><h2>Linking by Anchor Tag</h2></u>
       <a href="/about" style={linkStyle}>About</a>
       <a href="/contact" style={linkStyle}>Contact</a>
       <a href="/navbar" style={linkStyle}>Navbar</a>
-      <a href="/footer" style={linkStyle}>Footer</a>
+      <a href="/footer" style={linkStyle}>Footer</a> */}
 
       <u><h2>Link by Link Components</h2></u>
       <Link href="/about" style={linkStyle}>About</Link>
